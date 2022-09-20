@@ -31,10 +31,10 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(name)s - %(funcName)s - %(message)s',
     handlers=[
-        logging.FileHandler('canvas_scrape_submitted.log'),
+        logging.FileHandler('scraper.log'),
         logging.StreamHandler()
     ])
-logger = logging.getLogger('canvas_scrape_submitted')
+logger = logging.getLogger('scraper')
 
 #
 # command line
