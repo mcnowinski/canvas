@@ -1,1 +1,1 @@
-Scripts and utilities to squeeze the most out of the Canvas LMS
+Scrape student and assignment data from the Canvas LMS at Virginia Tech (and maybe others...)
