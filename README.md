@@ -9,7 +9,7 @@ In the same folder as the _scrape.py_ script, place the Selenium Chrome driver t
 <ins>Running</ins>
 
 _python scraper.py [-h] username password course_url_
-  - _username_ and _password_ are your Canvas credentials
+  - _username_ and _password_ are your Canvas credentials. Surround with double quotes if there are spaces in either value.
   - _course_url_ is the Canvas course URL, e.g., https://canvas.vt.edu/courses/123456
   
 NOTE: This script assumes that you use Duo Mobile or some compatible 2FA authentication method. You will need to authenticate every time this script is executed. The script will prompt you ("Waiting for 2-Factor Authentication...") when the 2FA push has been sent.
